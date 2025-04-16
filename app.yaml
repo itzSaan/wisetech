@@ -1,0 +1,6 @@
+kind: wasmer.io/App.v0
+name: wisetech
+owner: mailwisetech
+package: .
+scaling:
+  mode: single_concurrency
