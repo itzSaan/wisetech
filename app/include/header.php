@@ -11,23 +11,23 @@
     <!--  Open Graph (OG) Meta Tags for Social Media -->
     <meta property="og:title" content="WiseTech - Web, Mobile & Business Solutions">
     <meta property="og:description" content="We provide top-notch web & mobile solutions to scale your business. Contact WiseTech for professional IT services.">
-    <meta property="og:image" content="https://yourwebsite.com/assets/img/preview-image.webp">
-    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:image" content="https://wisetech.wasmer.app/assets/img/preview-image.webp">
+    <meta property="og:url" content="https://wisetech.wasmer.app">
     <meta property="og:type" content="website">
 
     <!--  Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="WiseTech - Web, Mobile & Business Solutions">
     <meta name="twitter:description" content="Looking for website & mobile app solutions? WiseTech provides expert IT services to grow your business.">
-    <meta name="twitter:image" content="https://yourwebsite.com/assets/img/preview-image.webp">
-    <meta name="twitter:site" content="@yourtwitterhandle">
+    <meta name="twitter:image" content="https://wisetech.wasmer.app/assets/img/preview-image.webp">
+    <meta name="twitter:site" content="@wisetechind">
 
     <!--  Viewport & Mobile Optimization -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!--  Canonical URL to Avoid Duplicate Content -->
-    <link rel="canonical" href="https://wise-tech.in">
+    <link rel="canonical" href="https://wisetech.wasmer.app/">
 
     <title>Welcome to WiseTech | Innovate. Empower. Succeed.</title>
 
