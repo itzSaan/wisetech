@@ -145,33 +145,33 @@
           <div class="row gap-4">
             <div class="col-sm-12" data-aos="fade-up" data-aos-delay="100">
               <div class="goal-card">
-                <p>Our Goals</p>
+                <p class="card-title">Our Goals</p>
               <h3>To be the Leading agency in the industry.</h3>
               </div>
             </div>
             <div class="col">
               <div class="mission-card">
-                <p>Our Mission</p>
+                <p class="card-title">Our Mission</p>
                 <h3>Customer Success <br />is our Mission.</h3>
-                <span
-                >We prioritize your growth by delivering innovative, tailored solutions that ensure long-term success and business excellence.</span
+                <p
+                >We prioritize your growth by delivering innovative, tailored solutions that ensure long-term success and business excellence.</p
                 >
               </div>
             </div>
             <div class="col" data-aos="fade-up" data-aos-delay="200">
               <div class="vision-card">
-                <p>Our Vision</p>
+                <p class="card-title">Our Vision</p>
                 <h3>
                   We are working <br />
                   on Future.
                 </h3>
-                <span>WiseTech innovates future-ready solutions, shaping industries with cutting-edge technology for smarter, scalable businesses.</span
+                <p>WiseTech innovates future-ready solutions, shaping industries with cutting-edge technology for smarter, scalable businesses.</p
                 >
               </div>
             </div>
             <div class="col-sm-12" data-aos="fade-up" data-aos-delay="100">
              <div class="values-card">
-              <p>Our Values</p>
+              <p class="card-title">Our Values</p>
               <h3>
                 The Way <br />
                 we are.
@@ -439,5 +439,8 @@
       <!-- End of Review Section -->
     </main>
     
+    <!-- Swiper JS -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+
     <?php require('include/footer.php');?>
     

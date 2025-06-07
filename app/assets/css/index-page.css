@@ -167,16 +167,14 @@
 /* .......................................................................
   vision and Mission section */
 
-.vision-and-mission p {
+.vision-and-mission .card-title {
   font-size: 1.25rem;
   font-weight: 500;
 }
 .vision-and-mission h3 {
   font-size: 50px;
 }
-.vision-and-mission span {
-  /* font-size: 1.15rem; */
-}
+
 .vision-and-mission .goal-card {
   background-color: var(--off-white);
   color: var(--white) !important;
