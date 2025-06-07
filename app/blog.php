@@ -179,10 +179,12 @@
               <div class="d-flex subscribe-form-wrap p-1">
                 <input
                   type="email"
+                  name="subscribe-email"
                   class="form-control px-4"
                   placeholder="Enter your email"
                   aria-label="Enter your email"
                   aria-describedby="button-form"
+                  autocomplete="off"
                   required
                 />
                 <button class="myButton lightBlueButton" type="submit" id="button-form">

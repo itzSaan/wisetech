@@ -8,10 +8,12 @@
               <div class="d-flex footer-form-wrap mb-3 p-1">
                 <input
                   type="email"
+                  name="email"
                   class="form-control px-4"
                   placeholder="Enter your email"
                   aria-label="Enter your email"
                   aria-describedby="button-form"
+                  autocomplete="off"
                   required
                 />
                 <button class="myButton myButton-lg px-5" type="submit" title="footer-form-button">
@@ -78,7 +80,8 @@
     </div>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <!-- <script src="assets/vendor/animejs/anime.min.js"></script> -->

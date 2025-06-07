@@ -121,11 +121,11 @@ if (isset($_GET['status'])) {
               <form action="send_email.php" id="contactForm" method="POST">
               <h3 class="fs-2">Send a Message</h3>
               <div class="form-floating mb-2">
-                <input type="text" name="name" class="form-control rounded-0 border-0 border-bottom" id="floatingInput" placeholder="name" required>
+                <input type="text" name="name" class="form-control rounded-0 border-0 border-bottom" id="floatingInput" placeholder="name" autocomplete="on" required>
                 <label for="floatingInput">Name</label>
               </div>
               <div class="form-floating mb-2">
-                <input type="email" name="email" class="form-control rounded-0 border-0 border-bottom" id="floatingInput" placeholder="name@example.com" required>
+                <input type="email" name="email" class="form-control rounded-0 border-0 border-bottom" id="floatingEmailInput" placeholder="name@example.com" autocomplete="off" required>
                 <label for="floatingInput">Email address</label>
               </div>
               <div class="form-floating mb-2">
