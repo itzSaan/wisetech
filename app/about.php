@@ -1,4 +1,6 @@
 <?php require('include/header.php');?>
+<!-- About Page CSS -->
+ <link rel="stylesheet" href="assets/css/about-page.css" />
 
   <body class="index-page">
 

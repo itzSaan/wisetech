@@ -1,4 +1,6 @@
 <?php require('include/header.php');?>
+<!-- Service Page CSS -->
+ <link rel="stylesheet" href="assets/css/service-page.css" />
 
   <body class="index-page">
 

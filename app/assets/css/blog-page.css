@@ -1,0 +1,184 @@
+
+/*--------------------------------------------------------------
+# Blog Page
+--------------------------------------------------------------*/
+--------------------------------------------------------------*/
+  .blog-page
+  .blog-page-card {
+  background-color: var(--off-white);
+  color: var(--black);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 100%;
+}
+.blog-page .blog-page-card h5 {
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+.blog-page .blog-page-card p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.blog-page .blog-page-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+.blog-page .blog-page-card div {
+  padding: 1rem;
+}
+
+.blog-page .blog-page-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5/3;
+  border-radius: 15px;
+}
+.blog-page .blog-page-card .tag-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+  padding: 0;
+  margin-top: 10px;
+}
+.blog-page .blog-page-card .tag-wrap span.tag {
+  font-size: 13px;
+  color: var(--accent-color);
+  /* background-color: color-mix(in srgb, var(--theme-orange), transparent 90%); */
+  /* padding-inline: 6px;
+  border-radius: 4px; */
+}
+.blog-page .blog-page-card .tag-wrap span.tag:nth-child(2) {
+  color: dodgerblue;
+  /* background-color: color-mix(in srgb, dodgerblue, transparent 90%); */
+}
+.blog-page .blog-page-card .tag-wrap span.tag:nth-child(3) {
+  color: seagreen;
+  /* background-color: color-mix(in srgb, seagreen, transparent 80%); */
+}
+/* Consult us section (Blog page) */
+
+.consult-us {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 60px 0;
+  text-align: center;
+  position: relative;
+}
+.consult-us img {
+  /*full image background */
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.consult-us:before {
+  content: "";
+  background-color: color-mix(in srgb, var(--theme-dark-blue), transparent 40%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.consult-us .container {
+  z-index: 3;
+  color: var(--background-color);
+}
+.consult-us .container h2 {
+  color: var(--background-color);
+  margin-bottom: 0;
+}
+
+#blogSubscribe {
+  padding: 40px 0;
+}
+#blogSubscribe h3 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+#blogSubscribe .subscribe-form-wrap {
+  background-color: var(--white);
+  border-radius: 3rem;
+}
+
+#blogSubscribe .subscribe-form-wrap input {
+  background-color: transparent;
+  font-size: 1.15rem;
+  border-radius: 2rem;
+  border: none;
+  padding: 1rem;
+}
+
+#blogSubscribe .subscribe-form-wrap input:focus {
+  outline-color: transparent !important;
+  border: none !important;
+}
+
+#blogSubscribe .subscribe-form-wrap .btn {
+  background-color: var(--theme-light-blue);
+  border-radius: 2rem;
+  padding-inline: 2.5rem;
+  padding-top: 12px;
+}
+#blogSubscribe .subscribe-form-wrap .btn {
+  font-size: 1.15rem;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  padding: 15px 25px;
+}
+
+/*------------------ ABout Us page---------------------- */
+
+.container .about-grid-section {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+#connectUs {
+  color: var(--white);
+  /* background-color: var(--background-color); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding: 160px 0 80px 0; */
+  text-align: center;
+  position: relative;
+}
+#connectUs #connectUsImage {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+#connectUs::before {
+  content: "";
+  background-color: color-mix(in srgb, var(--theme-dark-blue), transparent 30%);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+#connectUs .container p,
+a,
+.row,
+h3 {
+  z-index: 99 !important;
+}
+#connectUs .container a {
+  width: fit-content;
+}
+

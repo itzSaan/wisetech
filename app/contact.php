@@ -4,6 +4,8 @@ ini_set('display_errors', 1);
 ?>
 
 <?php require('include/header.php'); ?>
+<!-- Contact Page CSS -->
+<link rel="stylesheet" href="assets/css/contact-page.css" />
 
 <body class="index-page">
 

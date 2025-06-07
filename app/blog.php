@@ -1,5 +1,5 @@
 <?php require('include/header.php');?>
-
+<link rel="stylesheet" href="assets/css/blog-page.css" />
   <body class="index-page">
    
   <?php require('include/navbar.php');?>

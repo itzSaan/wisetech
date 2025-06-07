@@ -1,0 +1,80 @@
+
+/* Contact Page STyles  */
+.contact {
+  background-color: var(--off-white);
+}
+.contact .icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--theme-orange);
+  color: var(--background-color);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+.contact .icon i {
+  font-size: 1.25rem;
+}
+
+.contact .social-links a {
+  background-color: var(--accent-color);
+  width: 3rem;
+  height: 3rem;
+  color: var(--background-color);
+  font-size: 1.25rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.contact .form {
+  background-color: var(--background-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.contact .form::before {
+  content: "";
+  background-color: red;
+  background: repeating-linear-gradient(
+    55deg,
+    #02cfee,
+    #02cfee 25px,
+    #feee74 25px,
+    #feee74 50px,
+    #c1db6c 50px,
+    #c1db6c 75px,
+    #ff6f66 75px,
+    #ff6f66 100px
+  );
+  height: 5px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 1rem 1rem 0 0;
+  position: absolute;
+}
+
+.contact .form .form-btn {
+  display: block;
+  margin-left: auto;
+  background-color: var(--theme-orange);
+  color: var(--background-color);
+  border: 1px solid var(--theme-orange);
+  padding: 10px 40px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.contact .map {
+  overflow: hidden;
+  border-radius: 1rem;
+  filter: grayscale();
+  transition: 0.3s;
+}
+
+.contact .map:hover {
+  filter: grayscale(0);
+}

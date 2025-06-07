@@ -1,5 +1,8 @@
 <?php require('include/header.php');?>
 
+<link rel="stylesheet" href="assets/css/index-page.css" />
+<link rel="preload" as="image" href="assets/img/hero-bg.webp" />
+
 <body class="index-page">
     <?php require('include/navbar.php');?>
     
@@ -8,7 +11,7 @@
       <section id="hero" class="hero section">
         <img
           id="heroImage"
-          src="assets/img/hero-bg.jpg"
+          src="assets/img/hero-bg.webp"
           alt=""
           data-aos="fade-in"
         />
